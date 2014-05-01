@@ -1,0 +1,13 @@
+.flip{
+	animation-duration: 2s;
+	animation-name: flip;
+}
+
+@keyframes flip{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
